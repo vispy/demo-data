@@ -1,0 +1,25 @@
+This repository contains practical demonstrations of VisPy that require data 
+files too large to include in the main repository. To add a contribution,
+adhere to the following guidelines:
+
+* Demos should be unique, attrictve, and exhibit some non-trivial functionality 
+  provided by VisPy.
+
+* Each demo (or group of demos) should have its own top-level directory that
+  includes the following:
+
+      1. A LICENSE.txt file that applies to all contents of the directory
+      2. An AUTHORS.txt file that gives proper attribution to the creators of
+         the demonstration data as well as the source code. Relevant 
+         publications, if applicable, should be cited.
+ 
+* Although this repository is expected to contain large files, some effort
+  should be made to reduce the size of data files:
+
+      * Compress data using one of python's built-in compression libraries
+        if this results in significantly smaller files
+      * Commit data to the tree only once. If a PR contains multiple copies
+        of data files in its commit history, then it may be squash-merged 
+        to minimize expansion.
+
+* Demos should, whenever possible, only depend on VisPy and NumPy. 
