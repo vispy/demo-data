@@ -1,0 +1,16 @@
+Contributors to this demo :
+---------------------------
+
+Aurore Deschildre, 
+
+Gael Goret, 
+
+Cyrille Rossant, 
+
+Nicolas P. Rougier.
+
+
+The coordinates store in the micelle.npy file are taken 
+from a molecular dynamics simulation of a micelle model built by :
+
+Bachir Aoun CS/ILL 2013
